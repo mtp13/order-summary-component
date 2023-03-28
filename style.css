@@ -1,0 +1,55 @@
+:root {
+  /* Primary */
+  --pale-blue: hsl(225, 100%, 94%);
+  --bright-blue: hsl(245, 75%, 52%);
+
+  /* Neutral */
+  --very-pale-blue: hsl(225, 100%, 98%);
+  --desaturated-blue: hsl(224, 23%, 55%);
+  --dark-blue: hsl(223, 47%, 23%);
+}
+
+body {
+  font-family: "Red Hat Display", sans-serif;
+  background-color: var(--pale-blue);
+  display: grid;
+  place-content: center;
+  min-height: 100vh;
+  text-align: center;
+}
+
+.card {
+  max-width: 20rem;
+  border-radius: 1rem;
+  background-color: var(--very-pale-blue);
+}
+.card img {
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+}
+
+.card h1 {
+  font-size: 1.4rem;
+  font-weight: 900;
+  margin: 1rem 0;
+}
+
+.card p {
+  font-weight: 500;
+  color: var(--desaturated-blue);
+}
+
+.card .middle {
+  display: inline;
+}
+.payment {
+  color: var(--very-pale-blue);
+  background: var(--bright-blue);
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
