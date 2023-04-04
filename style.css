@@ -19,10 +19,11 @@ body {
 }
 
 .card {
-  max-width: 20rem;
+  max-width: 23rem;
   border-radius: 1rem;
-  background-color: var(--very-pale-blue);
+  background-color: white;
 }
+
 .card img {
   border-top-left-radius: 1rem;
   border-top-right-radius: 1rem;
@@ -31,25 +32,77 @@ body {
 .card h1 {
   font-size: 1.4rem;
   font-weight: 900;
-  margin: 1rem 0;
+  margin: 2rem 0 0 0;
 }
 
-.card p {
-  font-weight: 500;
+.card-text {
+  font-weight: 900;
   color: var(--desaturated-blue);
+  margin: 1rem;
+  line-height: 2rem;
 }
 
-.card .middle {
-  display: inline;
+.card-middle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+  padding: 0.8rem;
+  margin: 1rem;
+  background-color: var(--very-pale-blue);
+  border-radius: 1rem;
 }
+
+.card-middle h2 {
+  font-size: 0.9rem;
+  font-weight: 900;
+}
+
+.card-middle p {
+  color: var(--desaturated-blue);
+  font-size: 0.9rem;
+  font-weight: 700;
+}
+
+.card-middle a {
+  font-size: 0.9rem;
+  font-weight: 900;
+  padding-left: 1rem;
+  cursor: pointer;
+}
+
+.card-bottom {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
 .payment {
   color: var(--very-pale-blue);
   background: var(--bright-blue);
+  border-radius: 1rem;
+  font-weight: 900;
+  border-style: none;
+  box-shadow: 0.5rem 1.5rem 10px 1px var(--pale-blue);
+  padding: 1rem;
+  margin: 0.5rem 1rem;
+  cursor: pointer;
 }
+
+.cancel {
+  background-color: white;
+  border: none;
+  color: var(--desaturated-blue);
+  font-weight: 900;
+  margin-bottom: 1.5rem;
+  cursor: pointer;
+}
+
 .attribution {
   font-size: 11px;
   text-align: center;
 }
+
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
