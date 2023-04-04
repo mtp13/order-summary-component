@@ -41,5 +41,5 @@ Users should be able to:
 ## Author
 
 - Website - [Mike Pullen](https://github.com/mtp13)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor - [@mtp13](https://www.frontendmentor.io/profile/mtp13)
 - Twitter - [@mtp13](https://www.twitter.com/mtp13
