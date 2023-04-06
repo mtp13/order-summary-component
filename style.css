@@ -10,8 +10,8 @@
 }
 
 body {
+  background: url(images/pattern-background-desktop.svg) repeat-x var(--pale-blue);
   font-family: "Red Hat Display", sans-serif;
-  background-color: var(--pale-blue);
   display: grid;
   place-content: center;
   min-height: 100vh;
